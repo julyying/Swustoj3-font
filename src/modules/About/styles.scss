@@ -1,0 +1,28 @@
+.nav{
+  min-height: calc(100% - 79px - 100px);
+  min-height: -webkit-calc(100% - 79px - 100px);
+  min-height: -moz-calc(100% - 79px - 100px);
+  height:auto;
+  .tab-top{
+    height: 20px;
+    width: 20px;
+  }
+
+  .block{
+    margin: 0px 30px;
+    .tittle{
+      text-align: center;
+      font-size: 25px;
+      color: #2db7f5;
+      line-height: 35px;
+      margin-bottom: 10px;
+    }
+    .content{
+      font-size: 15px;
+      font-family: "微软雅黑";
+      font-weight: 300;
+      text-indent: 2em;
+      line-height: 30px;
+    }
+  }
+}

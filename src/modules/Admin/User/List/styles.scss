@@ -1,0 +1,30 @@
+.wrapper {
+    .toolbar {
+        position: absolute;
+        top: 73px;
+        right: 55px;
+        /*z-index: 999;*/
+    }
+    .searchbar {
+        position: absolute;
+        top: 73px;
+        left: 45px;
+        .wrapper {
+            display: table-cell;
+            vertical-align: middle;
+            .select div {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+            .btn {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+        .input {
+            border-right: none;
+            border-left: none;
+            border-radius: 0;
+        }
+    }
+}

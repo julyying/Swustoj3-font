@@ -1,0 +1,11 @@
+/* 由于antd-menu的选中项无法清空 导致次级页面导航也被选中 这里重载样式修复 */
+.ant-menu-item-selected {
+    border-bottom: none !important;
+}
+.active {
+    border-bottom: 2px solid #2db7f5 !important; 
+}
+.acm{
+    border-bottom: 0 !important;
+    cursor: auto;
+}

@@ -1,0 +1,29 @@
+.contestWrap{
+	//margin-top: 20px;
+	margin-bottom: 30px; 
+	.title{
+		margin: 0 auto 5px;
+		font-size: 22px;
+		text-align: center;
+	} 
+	.progress{
+		margin-bottom: 5px;
+	}
+	.timeDis{
+		overflow: hidden;
+		zoom:1;
+		margin-bottom: 10px;
+		.timeItem{
+			background-color: #2db7f5;
+			color: #fff;
+			text-align: center;
+			border-radius: 5px;	
+		}
+		.endTime{
+			background-color:red;
+			color: #fff;
+			text-align: center;
+			border-radius: 5px;
+		}
+	}
+}

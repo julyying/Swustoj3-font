@@ -1,0 +1,47 @@
+    /* 重写codemirror样式 */
+.m-problem-wrapper .ReactCodeMirror {
+        height: 100%;
+        padding-top: 50px;
+    }
+
+.m-problem-wrapper .ReactCodeMirror .CodeMirror {
+        height: 100%;
+    }
+
+    /*.ReactCodeMirror .CodeMirror .CodeMirror-scroll {
+        padding-bottom: 0;
+    }*/
+
+    /* 重载 ant-select 样式 */
+.m-problem-wrapper .ant-select {
+        margin-top: 12px;
+        width: 100px;
+    }
+
+.m-problem-wrapper .ant-select-selection {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: white;
+    }
+
+    /* 重载 ant-button 样式 */
+.m-problem-wrapper .ant-btn {
+        height: 28px;
+        margin-top: 11px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: white;
+    }
+.float_tag{
+    /* width: 30px;
+    height:60px; */
+    background: #DDD;
+    position: absolute;
+    top: 100px;
+    left: -20px;
+    z-index: 999;
+}
+.tag{
+    width: 150px;
+    height: 50px;
+}

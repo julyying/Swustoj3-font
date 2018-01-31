@@ -1,0 +1,81 @@
+.article{
+
+	.article_tittle{
+		text-align: center;
+		font-size: 30px;
+		font-weight: 700;
+		color: #2db7f5;
+		line-height: 50px;
+		margin-top: 50px;
+		margin-bottom: 5px;
+	}
+	.article_status{
+		text-align: center;
+		font-size: 10px;
+		color: #000;
+		font-weight: 200;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+	.article_content{
+		text-indent: 2em;
+		font-size: 15px;
+		color: #000;
+		font-weight: 300;
+		line-height: 25px;
+	}
+}
+
+.news_content{
+	border-left: 2px solid #f5f5f5;
+	border-right: 2px solid #f5f5f5;
+	.btn1{
+		width: 100%;
+		background-color: #5cb85c;
+		color: white;
+		font-size:18px;
+		margin-bottom:10px;
+	}
+	.btn2{
+		width: 100%;
+		background-color: #428bca;
+		color: white;
+		font-size:18px;
+	}
+	.go_back{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+}
+
+.reg{
+	.reg_submit{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	.reg_content{
+		border: 2px solid #f5f5f5;
+		.reg_tip{
+			background-color: #428bca;
+			color: white;
+			width:70px;
+			text-align: center;
+			margin-bottom:30px;
+			font-size:14px;
+		}
+		.reg_team{
+			margin-bottom:20px;
+		}
+		.reg_form{
+			margin-top:20px;
+			border: 2px solid #f5f5f5;
+			.reg_tip{
+				background-color: #428bca;
+				color: white;
+				width:70px;
+				text-align: center;
+				font-size:14px;
+			}
+		}
+	}
+}

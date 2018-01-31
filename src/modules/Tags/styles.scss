@@ -1,0 +1,11 @@
+.tagsWrap{
+	margin-top: 20px;
+	/* font-size: 18px!important; */
+	min-height: calc(100% - 98px - 100px);
+	min-height: -webkit-calc(100% - 98px - 100px);
+	min-height: -moz-calc(100% - 98px - 100px);
+	height:auto;
+	.tagsChart{
+		height: 400px;
+	}
+}

@@ -1,0 +1,19 @@
+.roll_news{
+	height: 40px;
+	font-size:18px;
+	line-height: 40px;
+	margin-top: 60px!important;
+	.fdiv{
+		width:100%;
+		position: relative;
+		height: 40px;
+		overflow: hidden;
+		.sdiv{
+		    position:absolute;
+		    width:100%;
+		}
+		.pdiv{
+			position:absolute;
+		}
+	}
+}

@@ -1,0 +1,166 @@
+.profileWrap{
+	//margin-top: 20px;
+	//height: 85%;
+	.aside{
+		width: 170px!important;
+		background-color: #fff!important;
+		.card{
+			width: 170px;
+			.custom-image {
+				width: 100px;
+				height:110px;
+				margin:auto;
+				img {
+				  display: block;
+				  height: 90px;
+				  width: 100px;
+				  margin-top:2px;
+				  cursor:pointer;
+				} 
+				p{
+				  color: #999;
+				  font-size:16px;
+				  font-family: "楷体";
+				  text-align: center;
+				}
+			}
+		}
+		.menu{
+			//height: 100%;
+			width: 170px!important;
+			min-height: calc(100% - 192px);
+		    min-height: -webkit-calc(100% - 192px);
+		    min-height: -moz-calc(100% - 192px);
+		    
+		} 
+
+	}
+	.main{
+		margin-left: 170px!important;
+		//min-height: 100%!important;
+		.header{
+			width: 100%;
+		    text-align: center;
+		    margin-bottom: 20px;
+		    font-size: 20px;
+		    font-weight: bold;
+		    padding: 8px 0;
+		}
+		.profileChangePW{
+			margin-top: 50px;
+		}
+		.num{
+			color: red;
+		}
+	}
+	
+}
+.Upload{
+	margin-left: 140px;
+}
+.priview {
+		.priviewImg{
+			text-align: center;
+		}
+	}
+.ant-upload-select-picture-card i {
+  font-size: 28px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+.upload-example {
+  position: relative;
+  display: inline-block;
+  height: 96px;
+  width: 96px;
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  vertical-align: top;
+}
+
+.upload-example img {
+  height: 78px;
+  width: 78px;
+}
+
+.upload-example:before {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  content: ' ';
+  width: 78px;
+  height: 24px;
+  background-color: #808080;
+  opacity: .8;
+}
+
+.upload-example span {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  width: 78px;
+  height: 24px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+}
+.Collections{
+	margin-bottom: 5px;
+	width: 100%;
+	.title{
+		font-size: 18px;
+	    color: #000;
+	    font-weight: 600;
+	    margin-left: 5px;
+	}
+	.content{
+		margin-left: 90px;
+	}
+	.smileWrap{
+		margin: 0 auto;
+		text-align: center;
+		.smile{
+			i{
+				color: green!important;
+			}
+		}
+	}	
+}
+.Tags{
+	margin-bottom: 5px;
+	width: 100%;
+	.title{
+		font-size: 18px;
+	    color: #000;
+	    font-weight: 600;
+	    margin-left: 5px;
+	}
+	.content{
+		margin-left: 90px;
+	}
+	.smileWrap{
+		margin: 0 auto;
+		text-align: center;
+		.smile{
+			i{
+				color: green!important;
+			}
+		}
+	}	
+}
+.deletebutton{
+	float: right;
+	margin-top: 15px;
+}
+
+.green_tag{
+	background-color: #5cb85c;
+	color:white!important;
+}

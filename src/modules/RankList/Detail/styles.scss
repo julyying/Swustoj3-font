@@ -1,0 +1,80 @@
+.rel{
+		position: relative;
+	}
+.wrapper{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	overflow: auto;
+	zoom: 1;
+	.title{
+		text-align: center;
+		font-size: 24px;
+		color: #08c;
+	}
+	.badge{
+		position: absolute;
+	    top: -1px;
+	    left: -1px;
+	    padding: 3px 7px;
+	    font-size: 14px;
+	    font-weight: bold;
+	    background-color: #08c;
+	    border: 1px solid #ccc;
+	    color: white;
+	    -webkit-border-radius: 4px 0 4px 0;
+	    -moz-border-radius: 4px 0 4px 0;
+	    border-radius: 4px 0 4px 0;
+	}
+
+	
+	.userInfo{
+		overflow: auto;
+		zoom: 1;
+		border: 1px solid #eee;
+		border-radius: 5px;
+		margin-top: 20px;
+		padding-top: 20px;  
+		.userImg{
+			float: left;
+			width: 150px;
+    		height: 150px;
+    		margin-top: 30px;
+    		margin-left: 10px;
+    		img{
+    			width: 150px;
+    			height: 150px;
+    		}
+		}
+		.userOther{
+			float: left;
+			margin: 20px 0 20px 50px;
+			font-size: 20px;
+			color: #9f9f9f;
+			.content{
+				margin-right: 30px;
+				color: #58992a;
+			}
+			hr{
+				margin: 20px 0;
+			    border: 0;
+			    border-top: 1px solid #eee;
+			    border-bottom: 1px solid #fff;
+			}
+		}
+			
+	}
+
+	.userProblems,.userContests{
+		
+		padding-top: 30px;
+		margin-top: 20px;
+		border: 1px solid #eee;
+		border-radius: 5px;
+	}
+
+}
+.priview{
+	.priviewImg{
+		text-align: center;
+	}
+}

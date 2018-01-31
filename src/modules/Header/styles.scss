@@ -1,0 +1,60 @@
+@import '../../scss/const.scss';
+
+.navbar {
+     min-width: 1200px;
+	font-size: 14px;
+	height: 70px;
+    position:absolute;
+    top: 80px!important;
+    width: 100%!important;
+    margin-top: -15px;
+	li {
+        line-height: 70px;
+    }
+    .size{
+        font-size: 18px;
+    }
+    .shouye{
+        margin-left: 20%;
+          font-size: 18px;
+    }
+    .logo {
+        font: 18px/70px bold;
+        font-family: 'Brush Script MT';
+        border-bottom: none !important;
+        margin-right: 10px;
+        margin-left: 20px;
+         font-size: 18px;
+    }
+    .user{
+        //margin-top: 50px!important;
+        position:absolute!important;
+        right:100px!important;
+        font-size: 18px;
+
+    }
+
+}
+.getPw{
+    position: relative;
+    width: 100%;
+    height: 20px;
+   .lossPw{ 
+        font-size: 14px; 
+        position: absolute;
+        right: 5px; 
+        &:hover{
+            cursor:pointer;
+            color: #2db7f5;
+        }   
+    } 
+}
+
+
+.warning{
+    margin: 0 auto;
+    margin-left: 29.16666667%;
+    width: 50%;
+    text-align: center;
+}
+

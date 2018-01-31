@@ -1,0 +1,259 @@
+@import './const.scss';
+/* 全屏布局样式初始化 */
+
+
+body {
+  min-width: 1200px;
+    height: 100%;
+    :global #app {
+        height: 100%;
+    }
+    :global #app > div {
+        height: 100%;
+    }
+    :global .ant-layout-aside {
+      position: relative;
+      min-height: 100%;
+    }
+    :global .ant-layout-aside1 {
+      position: relative;
+      height: auto;
+      min-height: 100%;
+    }
+    :global .ant-layout-aside2 {
+      position: relative;
+      min-height: calc(100% - 97px - 100px);
+      min-height: -webkit-calc(100% - 97px - 100px);
+      min-height: -moz-calc(100% - 97px - 100px);
+      height:auto;
+    }
+    /* 管理后台 页面全屏布局 */
+    :global .ant-layout-aside .ant-layout-logo {
+      width: 150px;
+      height: 32px;
+      font: 20px/32px bold;
+      font-family: 'Brush Script MT';
+      text-align: center;
+      overflow: hidden;
+      color: $WHITE;
+      margin: 16px 24px 16px 28px;
+      transition: all 0.3s ease;
+/*      background: #333;
+      border-radius: 6px;*/
+      
+    }
+
+    :global .ant-layout-aside .ant-layout-logo a {
+        color: $WHITE;
+    }
+
+    :global .ant-layout-aside .ant-layout-logo a:hover {
+        color: white;
+    }
+
+    :global .ant-layout-aside-collapse .ant-layout-logo {
+      width: 32px;
+      margin: 16px;
+      transition: all 0.3s ease;
+    }
+
+    :global .ant-layout-aside .ant-layout-sider {
+      width: 224px;
+      background: #404040;
+      position: absolute;
+      overflow: visible;
+      padding-bottom: 24px;
+      height: 100%;
+      transition: all 0.3s ease;
+    }
+    :global .ant-layout-aside2 .ant-layout-sider {
+      width: 224px;
+      background: #404040;
+      position: absolute;
+      overflow: visible;
+      padding-bottom: 24px;
+      height: 100%;
+      transition: all 0.3s ease;
+    }
+    :global .ant-layout-aside-collapse .ant-layout-sider {
+      width: 64px;
+      transition: all 0.3s ease;
+    }
+
+    :global .ant-layout-aside .ant-layout-sider > .ant-menu {
+      margin-bottom: 20px;
+    }
+
+    :global .ant-layout-aside .ant-layout-sider > .ant-menu > .ant-menu-item {
+      margin: 16px 0;
+    }
+
+    :global .ant-layout-aside .ant-layout-sider > .ant-menu > .ant-menu-item .nav-text {
+      vertical-align: baseline;
+      display: inline-block;
+    }
+
+    :global .ant-layout-aside .ant-layout-sider > .ant-menu > .ant-menu-item > .anticon {
+      transition: font-size .3s;
+    }
+
+    :global .ant-layout-aside-collapse .ant-layout-sider > .ant-menu > .ant-menu-item {
+      transition: all 0s ease;
+    }
+
+    :global .ant-layout-aside-collapse .ant-layout-sider > .ant-menu > .ant-menu-item > .anticon {
+      font-size: 16px;
+      display: inline-block;
+    }
+
+    :global .ant-layout-aside-collapse .ant-layout-sider > .ant-menu > .ant-menu-item .nav-text {
+      display: none;
+    }
+
+    :global .ant-layout-aside-collapse .ant-layout-sider > .ant-menu > .ant-menu-item:hover {
+      background: #2db7f5;
+      color: #fff;
+      transition: all 0s ease;
+    }
+
+    :global .ant-layout-aside-collapse .ant-layout-sider > .ant-menu > .ant-menu-item:hover .nav-text {
+      display: inline-block;
+      vertical-align: top;
+      background: #2db7f5;
+      color: #fff;
+      padding-right: 16px;
+      border-radius: 0 5px 5px 0;
+    }
+
+    :global .ant-layout-aside .ant-aside-action {
+      height: 42px;
+      width: 224px;
+      position: fixed;
+      bottom: 0;
+      background: #656565;
+      color: #fff;
+      text-align: center;
+      line-height: 42px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    :global .ant-layout-aside-collapse .ant-aside-action {
+      width: 64px;
+      transition: all 0.3s ease;
+    }
+
+    :global .ant-layout-aside .ant-layout-header {
+      background: #fff;
+      height: $ADMIN_HEADER;
+      border-bottom: 1px solid #e9e9e9;
+    }
+
+    :global .ant-layout-aside .ant-layout-goback {
+      height: 50px;
+      width: 50px;
+      margin-left: 35px;
+      font-size: 20px;
+      line-height: 50px;
+    }
+    
+    :global .ant-layout-aside .ant-layout-goback i:hover {
+      color: $ANT-BLUE;
+      cursor: pointer;
+    }
+
+    :global .ant-layout-main {
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    :global .ant-layout-main1 {
+        min-height: 100%;
+        position: relative;
+        overflow: hidden;
+
+    }
+    :global .ant-layout-aside .ant-layout-main { 
+      margin-left: 224px;
+      transition: all 0.3s ease;
+    }
+    :global .ant-layout-aside2 .ant-layout-main { 
+      margin-left: 224px;
+      transition: all 0.3s ease;
+    }
+    :global .ant-layout-aside-collapse .ant-layout-main {
+      margin-left: 64px;
+      transition: all 0.3s ease;
+    }
+
+    :global .ant-layout-container {
+        max-height: calc(100% - #{$ADMIN_HEADER} - #{$ADMIN_FOOTER} - #{$ADMIN_BREAD});
+        min-height: calc(100% - #{$ADMIN_HEADER} - #{$ADMIN_FOOTER} - #{$ADMIN_BREAD});
+        max-height: -webkit-calc(100% - #{$ADMIN_HEADER} - #{$ADMIN_FOOTER} - #{$ADMIN_BREAD});
+        min-height: -webkit-calc(100% - #{$ADMIN_HEADER} - #{$ADMIN_FOOTER} - #{$ADMIN_BREAD});
+        max-height: -moz-calc(100% - #{$ADMIN_HEADER} - #{$ADMIN_FOOTER} - #{$ADMIN_BREAD});
+        min-height: -moz-calc(100% - #{$ADMIN_HEADER} - #{$ADMIN_FOOTER} - #{$ADMIN_BREAD});
+        overflow: auto;
+    }
+
+    :global .ant-layout-aside .ant-layout-container {
+      margin: 0 16px;
+    }
+
+    :global .ant-layout-aside .ant-layout-content {
+      background: #fff;
+      padding: 0 24px;
+    }
+
+    :global .ant-layout-aside .ant-layout-footer {
+      height: $ADMIN_FOOTER;
+      line-height: 64px;
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+      background: #fff;
+      border-top: 1px solid #e9e9e9;
+      width: 100%;
+    }
+}
+
+/* 重载antd-table样式 表头及内容居中显示 */
+:global .ant-table-body {
+    th {
+        font-size: 14px;
+        //height: 46px;
+        text-align: center !important;
+    }
+    td {
+      font-size: 14px;
+      //height: 46px;
+        text-align: center !important;
+    }
+}
+
+
+/* modal样式重载 overflow：auto */
+:global .ant-modal > .ant-modal-content > .ant-modal-body {
+  //height: 350px;
+  overflow: auto;
+} 
+
+/* 全局功能实现 */
+:global .f-cb:after {
+    content: '.';
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
+}
+
+:global .f-fl {
+    float: left;
+}
+
+:global .f-fr {
+    float: right;
+}
+
+
+

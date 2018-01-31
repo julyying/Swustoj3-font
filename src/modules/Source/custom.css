@@ -1,0 +1,8 @@
+    /* 重写codemirror样式 */
+.m-source-wrapper .ReactCodeMirror {
+        height: 100%;
+    }
+
+.m-source-wrapper .ReactCodeMirror .CodeMirror {
+        height: 100%;
+    }
